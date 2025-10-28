@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Book Appointment</title>
+    <title>Book Appointment done by JaiChey</title>
 </head>
 <body>
     <h2>Book Your Appointment</h2>
