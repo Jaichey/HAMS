@@ -25,3 +25,20 @@ kubectl create rolebinding jenkins-admin-binding --clusterrole=admin --serviceac
 kubeclt get nodes
 kubectl get pods --watch
 kubectl config view
+
+kubectl apply -f k8s/
+kubectl get pods
+kubectl get svc
+
+kubectl apply -f nagios/
+kubectl get pods
+kubectl get svc
+
+In:
+C:\Program Files\NSClient++\nsclient.ini
+Set:
+allowed hosts = 127.0.0.1,192.168.1.20
+Restart NSClient++:
+Restart-Service nscp
+Inside /etc/nagios/nrpe.cfg:
+allowed_hosts=127.0.0.1,192.168.1.20
